@@ -1,4 +1,7 @@
-result = 0
-for auxiliar in range(1,101):
-    result = result + auxiliar 
-print(result)
+number = int(input("Por favor ingrese un numero:"))
+for i in range(0,number):
+    print("*" * (i+1))
+
+
+
+
